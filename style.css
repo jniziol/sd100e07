@@ -28,22 +28,25 @@ header {
 
 
 nav {
-  text-align: right;
   background-color: #009677;
-  height: 50px;
-  }
+}
 
 .inner { 
   width: 1024px;
   margin: auto;
 }
 
-nav a {
-  margin: 15px;
+.right a {
   text-decoration: none;
-  height: 50px;
   display: inline-block;
   font-size: 18px;
+  color: #073903;
+  padding: 20px;
+}
+
+.left a {
+  font-size: 50px;
+  padding: 0px;
   color: #073903;
 }
 
@@ -79,17 +82,12 @@ nav a {
   color: white;
 }
 
-
 .left {
-  color: #00685f;
   float: left;
-  width: 50%;
 }
 
 .right {
-  color: #00685f;
-  width: 50%;
-  float: left;
+  float: right;
 }
 
 .group:after {
@@ -133,16 +131,13 @@ button:hover {
 }
 
 .wrap {
-  width: 300px;
-  margin: auto;
-  width: 300px;
+  width: 600px;
   margin: auto;
   background-color: #00957738;
   padding: 15px;
   border-radius: 3px;
   margin-bottom: 20px;
 }
-
 
 #agree {
   width: initial;
